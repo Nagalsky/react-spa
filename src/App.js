@@ -1,25 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Router } from "@reach/router";
+import { ThemeProvider, CSSReset } from "@chakra-ui/core";
+import { Global } from "@emotion/core";
+import globalStyles from "../src/lib/global-styles";
+import customTheme from "../src/theme/";
+import Layout from "../src/layout";
+import { Homepage, About, Contacts } from "../src/pages/";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={customTheme}>
+      <CSSReset />
+
+      <Global styles={globalStyles} />
+
+      <Layout>
+        <Router>
+          <Homepage path="/" />
+          <About path="/about" />
+          <Contacts path="/contacts" />
+        </Router>
+      </Layout>
+    </ThemeProvider>
   );
 }
 
