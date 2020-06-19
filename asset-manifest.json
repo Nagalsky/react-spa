@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-spa/static/css/main.6cbafd89.chunk.css",
+    "main.js": "/react-spa/static/js/main.0400100c.chunk.js",
+    "main.js.map": "/react-spa/static/js/main.0400100c.chunk.js.map",
+    "runtime-main.js": "/react-spa/static/js/runtime-main.435fab0e.js",
+    "runtime-main.js.map": "/react-spa/static/js/runtime-main.435fab0e.js.map",
+    "static/js/2.a751721c.chunk.js": "/react-spa/static/js/2.a751721c.chunk.js",
+    "static/js/2.a751721c.chunk.js.map": "/react-spa/static/js/2.a751721c.chunk.js.map",
+    "index.html": "/react-spa/index.html",
+    "precache-manifest.0cfc7e13fd42a600bb27489c0407dad9.js": "/react-spa/precache-manifest.0cfc7e13fd42a600bb27489c0407dad9.js",
+    "service-worker.js": "/react-spa/service-worker.js",
+    "static/css/main.6cbafd89.chunk.css.map": "/react-spa/static/css/main.6cbafd89.chunk.css.map",
+    "static/js/2.a751721c.chunk.js.LICENSE.txt": "/react-spa/static/js/2.a751721c.chunk.js.LICENSE.txt",
+    "static/media/stylesheet.css": "/react-spa/static/media/MuseoModerno-Regular.f338b423.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.435fab0e.js",
+    "static/js/2.a751721c.chunk.js",
+    "static/css/main.6cbafd89.chunk.css",
+    "static/js/main.0400100c.chunk.js"
+  ]
+}
