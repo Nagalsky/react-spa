@@ -6,7 +6,7 @@ const Homepage = () => {
   return (
     <Box>
       <Container>
-        i'm homepage <Icon name="menu" />
+        i'm homepage <Icon name="menu" /> gggg
       </Container>
     </Box>
   );
